@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="java/p5.js"></script>
+    <script src="java/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <meta charset="utf-8" />
+    <title>ARTNETLAB</title>
+ <!-- Google Fonts: Varela Round y Nunito -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Nunito:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <!-- INICIO LINKS BOOSTRAP-->
+      <script src="java/sketch.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- INICIO NAV BAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content align-items">
+            <div class="logo d-flex "> 
+                <img src="img/logo/logonet.png">
+            </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#history">History</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
+                <a class="nav-link" href="#about-us">About us</a>
+                <a class="nav-link" href="#contact">Contact!</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      <!-- FINAL NAV BAR-->
+      <!-- Hero INICIO  -->
+      <section class="hero set-bg">
+        <div class="container-fluid, hero-img" id="home"> 
+          <div class="hero2 col-12 text-center d-flex justify-content-center align-items-center"> 
+            <img src="img/img-heroo.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </section>
+    </header>
+      <!-- Hero FINAL -->
+
+    <!--TEXTO ESTILO BAUHAUS-->
+    <div class="intrinsic ">
+      <!-- Líneas horizontales -->
+      <div class="line line-horizontal top "></div>
+      <div class="line line-horizontal middle "></div>
+      <!-- Líneas verticales -->
+      <div class="line line-vertical left "></div>
+      <div class="line line-vertical right"></div>
+      <!-- Rectángulos -->
+      <div class="rect small"></div>
+      <div class="rect large"></div>
+      <!-- Texto -->
+      <div class="h1 intrinsictitle fs-3">ARTNETLAB</div>
+      <div class="h2 intrinsicsubtitle fs-6">LEARN SOMETHING OF DIGITAL ART</div>
+    </div>
+  <!-- FIN TEXTO ESTILO BAUHAUS-->
+
+  <!-- SECCION HOME -->
+    <div class="main-container">
+      <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center mx-auto">
+            <div class="container-introduccion"> 
+              <h2 class="titulo1 mt-5">History of Digital Art</h2>
+              <br>
+              <div class="texto-inicio">
+                <p><strong class="I-texto-inicio">I</strong>n this page we explain the evolution of digital art <br>
+                since its creation until today. We show the referents <br> 
+                and pioneers of each stage and a gallery section whe-<br>
+                -re to investigate their works. </p>
+              </div>
+            </div>
+          </div>
+        <!-- FIN SECCION HOME-->
+        <!-- Sección ASIDE -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <aside class="aside">
+            <div class="news">
+              <h2>Some artistic works:</h2>
+              <div class="news-item">
+                <p><a href="https://www.youtube.com/watch?v=Vkfpi2H8tOE > ">"O Superman"</a> of Laurie Anderson</p>
+                <p><a href="https://www.youtube.com/watch?v=jRAWryc6X5E" >"Melting Memories"</a> of Refik Anadol</p>
+                <p><a href="https://wwwwwwwww.jodi.org/betalab/index.html"> "jordi.org</a> by Joan Heemskerk and Dirk Paesmans</p>
+              </div>
+              <div class="news-item">
+                <h2>More info of...</h3>
+                <p><a href="https://proyector.info/profile/mario-klingemann/"> Mario Klingemann</a></p>
+                <p><a href="https://www.lozano-hemmer.com/"></a> Rafael Lozano-Hemmer</p>
+                <p><a href="https://refikanadol.com/works/"> Refik Anadol</a> </p>
+                <p><a href="https://www.behance.net/beeple">Beeple </a> (Mike Winkelmann)</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Sección ASIDE -->
+
+    <!-- SECCION HISTORY-->
+    <article>
+      <div class="container-history">
+        <section class="historia" id="history">
+          <!-- Primera etapa: 1950-1970 (Texto a la izquierda) -->
+          <section class="historia-seccion" id="bordes-lados">
+            <div class="row">
+              <div class=" col-md-6 columna izquierda mt-5">
+                <h2>The Beginnings of Digital Art (1950-1970)</h2>
+                <p>
+                Digital art has its roots in the invention of the computer. In the 1950s and 1960s, some pioneers began experimenting with early computers, using algorithmically generated graphics.
+                </p>
+                <p>
+                <strong>Ben Laposky (1950s):</strong> was an American artist and one of the pioneers in using technology to create art. His innovative approach combined art and science, exploring the possibilities of electronic devices. 
+                <strong>"Oscillon 40" (1952)</strong> is one of his most recognized works and is considered a precursor to digital art. In “Oscillon 40,” Laposky used an oscilloscope to create dynamic images that changed based on the adjustments of frequency and amplitude of the signals. This pioneering approach influenced later artists and the development of generative art.
+                </p>
+                <p>
+                <strong>Frieder Nake and Georg Nees (1960s):</strong> Pioneers in generating images using algorithms. Nake used computers to create abstract art, as seen in works like “Polygon Drawings” (1965).
+                </p>
+              </div>
+              <div class="col-md-6 mb-5">
+                <img src="img/hist/oscillon40.jpg" class="imagen-cuadrada img-fluid" alt="Artwork,, Oscillon 40 of Ben Laposky">
+                <figcaption class="small text-center">"Oscillon40" by Ben Laposky</figcaption>
+                </div>
+            </div>
+          </section>
+          <!-- Segunda etapa: 1970-1990 (Texto a la derecha) -->
+          <section class="historia-seccion" id="bordes-lados">
+            <div class="row">
+              <div class="col-md-6 mb-5">
+                <img src="img/hist/aaron.jpg" class="imagen-cuadrada img-fluid" alt="Artwork,, Aaron,of Harold Cohen">
+                <figcaption class="small text-center">"AARON" of Harold Cohen</figcaption>
+              </div>
+              <div class="col-md-6 columna derecha mt-5">
+                <h2>Development of Digital Art (1970-1990)</h2>
+                <p >Access to computer technology expanded during the 1970s and 1980s, and digital art began to evolve.</p>
+                <p ><strong>Harold Cohen (1970s):</strong> Created AARON, a program designed to autonomously create drawings, exploring machine-generated creativity.</p>
+                <p ><strong>Laurie Anderson (1980s):</strong> Her use of synthesizers, such as in *O Superman* (1981), inspired many artists to explore technology and art.</p>
+                <p ><strong>David Em (1980s):</strong> One of the first to work exclusively in three-dimensional computer graphics, creating virtual worlds that merged art and technology.</p>
+              </div>
+            </div>
+          </section>
+          <!-- Tercera etapa: 1990-2010 (Texto a la izquierda) -->
+          <section class="historia-seccion" id="bordes-lados">
+            <div class="row">
+              <div class="col-md-6 columna izquierda, mt-5">
+                <h2>The Age of Digital Art on the Internet (1990-2010)</h2>
+                <p>With the advent of the Internet and the rise of digital technology, digital art became more accessible and diverse.</p>
+                <p><strong>Jodi.org (often styled as "JODI")</strong>  was launched in 1995 by Belgian artists Joan Heemskerk and Dirk Paesmans. This site is one of the earliest examples of web art and is considered a milestone in the history of digital art. With its experimental and disruptive style, Jodi.org was created to challenge the conventions of navigation and perception on the web, using the source code and interface as artistic media.</p>
+                <p><strong>Rafael Lozano-Hemmer (2000s):</strong> Known for his large-scale interactive installations like *Pulse Room* (2006), which reflected visitors' heartbeats using lights.</p>
+              </div>
+              <div class="col -md-6 mb-5">
+                <img src="img/hist/hemmer.jpg" class="imagen-cuadrada img-fluid" alt="Artwork, Pulse Room of Rafael Lozano-Hemmer">
+                <figcaption class="small text-center">"Pulse Room" of Rafael Lozano-Hemmer</figcaption>
+              </div>
+            </v>
+          </section>
+            <!--Epoca 2010 2024-->
+          <section class="historia-seccion" id="bordes-lados">
+            <div class="row">
+              <div class="col-md-6 mb-5">
+                <img src="img/hist/5000daysbeeples.jpeg" class="imagen-cuadrada img-fluid" alt="Artwork, The First 5000 Days of Mike Winkelmann" id="nft">
+                <figcaption class="small text-center">"Everydays: The First 5000 Days" of Mike Winkelmann (Beeple's)</figcaption> <!-- pie de imgn para q en formato movil se sepa a q seccion se refiere-->
+                </div>
+              <div class="col-md-6 columna derecha mt-5">
+                <h2>Digital Art in the Era of NFTs and Virtual Reality (2010-2024)</h2>
+                <p>
+                <strong>Refik Anadol</strong> is an artist and designer working with data, artificial intelligence and immersive art. His real-time data installations, such as <strong>"Melting Memories" </strong> and <strong>"Machine Hallucinations" </strong>, explore how artificial intelligence can generate new forms of visual aesthetics from large data sets.
+                </p>
+                <p>
+                <strong>Mario Klingemann</strong> is a pioneer in the use of artificial intelligence to create art, Klingemann uses neural networks and algorithms to explore the creative possibilities of machines. His work is a bridge between human creativity and artificial intelligence.
+                </p>
+                <p>
+                The prices NFTs fetched at auction marked a before and after in the history of digital art. The acquisition of <strong>Beeple's (Mike Winkelmann)</strong> "Everydays: The First 5000 Days" for $69 million in 2021 cemented NFTs as a major new art market.
+                </p>
+              </div>
+            </div>
+          </section>
+            <!--Art futur-->
+          <section class="historia-seccion" id="bordes-lados">
+            <div class="row">
+              <div class="col-12 columna izquierda text-center ">
+                <h2 class="mb-4 text-center">The Future of Digital Art</h2>
+                <p class="text-center">
+                  Digital art continues to expand in ways that were previously unimaginable, driven by advances in technologies such as artificial intelligence, virtual reality, and blockchain. NFTs have opened up new opportunities for artists to monetize their work and reach new audiences without relying on traditional galleries or intermediaries.
+                </p>
+                <p class="text-center">
+                    In addition, interactive and generative art is gaining ground, where viewers are not just passive observers, but active participants in the creation of the work. The fusion between the physical and digital worlds is transforming the way we experience art.
+                </p>
+                <p class="text-center mb-5">
+                    The digital realm is also reshaping collaborative and participatory art forms, allowing creators and audiences to interact in real-time. This transformation encourages more dynamic expressions and engagement, bridging the gap between artists and viewers like never before.
+                </p>
+              
+              </div>
+                <div class="col-sm-12">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col d-flex display-content-center">
+                        <div class="p5-container">
+                          <div id="p5"></div> <!-- Contenedor específico para p5.js -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </article>
+
+    <!-- INICIO Sección GALLERY -->
+    <div class="gallery">
+      <div class="container"> 
+        <div class="titulo-galeria text-center mb-4">
+          <h2 class="mt-5">Gallery</h2>
+        </div>
+        <div class="gallery"> 
+          <!-- PRIMER GRUPO DE IMGNS -->
+          <h3 class="segundo-titulo-gallery">1. The Beginnings of Digital Art (1950-1970)</h3>
+          <div class="grupo-imgn">
+            <div class="row mb-4">
+              <div class="col-6 col-md-3 mb-3">
+                <div class="image_wrapper">
+                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/poly.jpg" alt="Polygon Drawings of Frieder Nake and Georg Nees, 1965"/>
+                  <span class="image_caption">"Polygon Drawings" of Frieder Nake and Georg Nees -1965</span>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-3">
+                <div class="image_wrapper">
+                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness.jpeg" alt="Unknown title by Georg Nees"/>
+                  <span class="image_caption">"Unknown title" by Georg Nees</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 mb-3">
+                <div class="image_wrapper">
+                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness2.JPG" alt="Unknown title by Georg Nees"/>
+                  <span class="image_caption">"Unknown title" by Georg Nees</span>
+                </div>
+              </div>
+              <div class="col-6 col-md-3 mb-3">
+                <div class="image_wrapper">
+                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/fridernake.jpg" alt="Walk Through Raster by Frider Nake, 1967"/>
+                  <span class="image_caption">"Walk Through Raster" by Frider Nake  - 1967</span>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <!-- SEGUNDO GRUPO DE IMGNS -->
+          <h3 class="segundo-titulo-gallery">2.  Development of Digital Art (1970-1990)</h3>
+          <div class=" grupo-imgn, row mb-4">
+            <div class="col-6 col-md-3 mb-3">
+              <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/aaron1.jpg" alt="AARON of Harold Cohen"/>
+              <div class="image_wrapper">
+                <span class="image_caption">"AARON" by Harold Cohen  - 1970</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/harold.jpg" alt="Machine Painting Series TCM#23, 1997 of Harold Cohen"/>
+                <span class="image_caption">"Machine Painting Series" by Harold Cohen - 1997</span>
+              </div>
+            </div>    
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid"id="desenfoque" src="img/img-gallery/harold1.jpg" alt="Untitled (i23-3765), 1987 of Harold Cohen"/>
+                <span class="image_caption"> "Untitled" by Harold Cohen - 1987</span>
+              </div>    
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/davidem.JPG" alt="Escher, 1979, of David Em"/>
+                <span class="image_caption">"Escher" by David Em - 1979</span>
+              </div>
+            </div>
+          </div>
+          <!-- TERCER GRUPO DE IMGNS -->
+          <h3>3. The Age of Digital Art on the Internet (1990-2010)</h3>
+          <div class="grupo-imgn row mb-4">
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi1.JPG" alt="Jordi.org, experimental art website"/>
+                <span class="image_caption">Jordi.org, experimental art website</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi2.JPG" alt="Jordi.org, experimental art website"/>
+                <span class="image_caption">Jordi.org, experimental art website</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/lozano.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
+                <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/hemmer2.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
+                <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
+              </div>
+            </div>
+          </div>
+          <!-- CUARTO GRUPO DE IMGNS -->
+          <h3>4. Digital Art in the Era of NFTs and Virtual Reality (2010-2024)</h3>
+          <div class="grupo-imgn row mb-4">
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/anadol.JPG" alt="Liminal Room, 2015, of Refik Anadol"/>
+                <span class="image_caption">Liminal Room, 2015, of Refik Anadol</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/mario.jpg" alt="Medialab Prado, 2021, of Mario Klingemann"/>
+                <span class="image_caption">Medialab Prado, 2021, of Mario Klingemann</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples.JPG" alt="NFT Art of Beeples, 2000"/>
+                <span class="image_caption">NFT Art of Beeples, 2000</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+              <div class="image_wrapper">
+                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples2.JPG" alt="NFT Art of Beeples, 2019"/>
+                <span class="image_caption">NFT Art of Beeples, 2019</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- NETART INTERACTIVO -->
+        <h3>Now you are the artist!</h3>
+        <div id="art-container" class="mb-3"></div>
+        <div class="centered">
+          <button id="generate-btn" class="custom-button">Generate new work</button>
+        </div>
+      </div>    
+    </div>
+  <!-- FIN Sección GALLERY -->
+
+  <!-- INICIO Sección About Us -->
+    <div class="container-final">
+      <div class="container mt-5">
+        <section class="sobrenosotras" id="bordes-lados">
+          <h2 class="text-center" id="about-us">About us</h2>
+          <br>
+          <section id="historiauno" class="historia-seccion row">
+            <div class="col-md-6 col-12 text-center mt-4 mb-4">
+              <h3>Who we are?</h3>
+              <p >
+              We are a non-profit association and our main goal is to show how artists have adapted their creation methods to technological capabilities. In ARTNETLAB you can see how digital art began and how it has evolved until today. We hope our content will inspire you to experiment new ways of creating.
+              </p>
+            </div>
+            <div class="col-md-6 align-items-center">
+              <div class=" logo-about text-center ">
+              <img src="img/logo/logogran.png" alt="Logo of ARTNETLAB" /> <!-- redondeo la imgn con bs con border pill y redusco su tamaño a la mitad-->
+              </div>
+            </div>
+          </section>
+          <br>
+          <section class="historia-seccion mt-2 row">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="img-valen mt-5">
+                  <img class="w-50" src="img/valentino2.jpg" alt="Descripción de la imagen" />
+                </div>
+                </div>
+              <div class="col-md-6 col-12 text-center">
+                <h3  class="mt-5">Valentino Coello</h3>
+                <p>
+                Digital art has its roots in the invention of the computer. In the 1950s and 1960s, some pioneers began experimentando con early computers, usando gráficos generados algorítmicamente.
+                </p>
+                <p><strong>Ben Laposky (1950s):</strong> He used an oscilloscope to create abstract forms. His work "Oscillon 40" (1952) is considered a precursor of digital art.</p>
+                <p><strong>Frieder Nake and Georg Nees (1960s):</strong> Pioneers in generating images using algorithms. Nake used computers to create abstract art, as seen in works like “Polygon Drawings” (1965).</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-6 col-12 text-center">
+                <h3 class="mt-5">Juli Calvo</h3>
+                <p>
+                Refik Anadol is an artist and designer working with data, artificial intelligence and immersive art. His real-time data installations, such as "Melting Memories" and *Machine Hallucinations*, explore how artificial intelligence can generate new forms of visual aesthetics from large data sets.
+                </p>
+                <p>
+                Mario Klingemann is a pioneer in the use of artificial intelligence to create art, Klingemann uses neural networks and algorithms to explore the creative possibilities of machines. His work is a bridge between human creativity and artificial intelligence.
+                </p>
+              </div>
+              <div class="col-md-6 col-12 mt-5">
+                <div class="img-julia">
+                  <img class=" w-50" src="img/juliocalvo.jpeg" alt="Descripción de la imagen" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+      <!-- Seccion sugerencias -->
+      <section class="addartist">
+        <div class="container-artist">
+            <h3>Which artist would you like to see on our site?</h3>
+          <div class="col d-flex">
+            <input type="text" placeholder="Name" class="form-control me-2" />
+            <button type="submit" class="btn btn-primary bg-warning text-dark border-dark">Send</button>
+          </div> 
+        </div>  
+      </section>
+      <!-- Map Begin -->
+      <div class="map-container"> 
+        <h2 class="map-title">FIND US!</h2>
+        <h3 style="text-align: center; margin-bottom: 1%;">Street General Brito, 25007, Lleida</h3>
+        <div class="map-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14188.916086112957!2d0.6279232129659638!3d41.61570834562847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1712786453448!5m2!1ses!2ses" 
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <!-- Map End -->
+      <!-- SECCION CONTACTO -->
+      <section class="contact "> 
+        <div class="container"> <!-- Añadido un contenedor para el grid -->
+          <div class="row"> <!-- Fila para el grid -->
+            <div class="col-md-6 justify-content-start"> <!-- Columna para la dirección -->
+              <div class="contact-address">
+                <div class="section-title">
+                  <h2 class="contact-info" id="contact">Contact info</h2>
+                </div>
+                <h3>Address</h3>
+                <p>Lleida, Cataluña, 250007</p>
+                <h3>Phone</h3>
+                <span>+34 684 389 235</span>
+                <h3>Email</h3>
+                <p>ArtNet.Lab@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 justify-content-center"> <!-- Columna para el formulario -->
+              <div class="contact__form text-center">
+                <div class="gettt-titulo">  
+                  <h2 class="ml-5">Get in touch</h2>  
+                </div>
+                <h3>If you have any questions, do not hesitate to contact us and we will do our best to resolve them for you!</h3>
+                <form action="#">
+                  <div class="celdas">
+                    <div class="col">
+                      <input type="text" placeholder="Email" >
+                    </div>
+                  </div>      
+                  <div class="celdas">
+                    <div class="col">
+                      <textarea placeholder="Comment"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="celdas">SEND MESSAGE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Contact End -->
+    <!--footer-->
+    <footer class="footer">
+      <p>This site is for learning and entertainment.</p>
+      <a class="scroll-to-top icono-fixed" href="#home" title="Volver arriba">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+    </footer>
+    <!--footer end-->
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="java/scripts.js"></script> <!--java del network-->
+  </body>
+</html>
