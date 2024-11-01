@@ -375,6 +375,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 /* Estilo Bauhaus para líneas y formas */
