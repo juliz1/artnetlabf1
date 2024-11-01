@@ -1,5 +1,3 @@
-
-
 html, body {
   margin: 0;
   padding: 0;
@@ -123,9 +121,10 @@ canvas {
   padding: 20px; /* Espacio interno */
 }
 
-@media (max-width: 576px) { /* Cambia el valor según el tamaño que consideres "pequeño" */
+@media (max-width: 330x) { /* Cambia el valor según el tamaño que consideres "pequeño" */
   .logo-about {
     align-items: center;
+    margin-left: 40%;
   }
 }
 
@@ -377,7 +376,6 @@ button:hover {
   align-items: center;
   margin-top: 10%;
 }
-
 /* Estilo Bauhaus para líneas y formas */
 .line {
   position: absolute;
@@ -462,13 +460,13 @@ button:hover {
 
 .intrinsic {
   position: absolute; /* Posiciona el diseño encima de la imagen */
-  top: 50%; /* Ajusta según sea necesario para centrar verticalmente */
+  top: 40%; /* Ajusta según sea necesario para centrar verticalmente */
   left: 50%; /* Centra horizontalmente */
   transform: translate(-50%, -50%); /* Ajusta para centrar completamente */
   width: 80vw; /* Controla el tamaño del contenedor en relación al viewport */
   height: 80vh; /* Controla la altura en relación al viewport */
-  max-width: 600px; /* Limita el tamaño máximo del contenedor */
-  max-height: 400px; /* Limita la altura máxima */
+  max-width: 40%; /* Limita el tamaño máximo del contenedor */
+  max-height: 20%; /* Limita la altura máxima */
   background-color: transparent; /* Fondo completamente transparente */
   overflow: hidden;
   display: flex;
@@ -476,6 +474,32 @@ button:hover {
   align-items: center;
 }
 
+@media(max-width:913px){
+  .intrinsic {
+    top: 30%; /* Ajusta según sea necesario para centrar verticalmente */
+    transform: translate(-50%, -40%); /* Ajusta para centrar completamente */
+    max-width: 100%; /* Limita el tamaño máximo del contenedor */
+    max-height: 20%; /* Limita la altura máxima */
+  }
+}
+
+@media(max-width:1024px){
+  .intrinsic {
+    top: 20%; /* Ajusta según sea necesario para centrar verticalmente */
+  }
+}
+
+@media(max-width:600px){
+  .intrinsic {
+    top: 20%; /* Ajusta según sea necesario para centrar verticalmente */
+  }
+}
+
+@media (max-width: 376px) {
+  .intrinsic {
+    display: none; /* Esto hará que el elemento desaparezca */
+  }
+}
 
 .logo{
   margin-left: 5%;
@@ -518,8 +542,13 @@ button:hover {
   width: 40%; /* Ajusta el ancho según tus necesidades */
   border-radius: 10px; /* Redondea las esquinas */
   padding: 5%; /* Agrega un espacio alrededor del contenido */
-
 }
+
+@media (max-width: 510px) {
+  .container-artist  {
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+  }    
+  }
 
 .container-final {
   background-color: rgb(209, 209, 209);
@@ -560,4 +589,3 @@ navbar-nav .nav-link {
   right: 20px;
   color: #4c444c;
 }
-
