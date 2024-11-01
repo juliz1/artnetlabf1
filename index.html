@@ -1,31 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Faltaba esto!! -->
+
     <script src="java/p5.js"></script>
     <script src="java/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--NUEVO!!-->
     <title>ARTNETLAB</title>
     <!-- Google Fonts: Varela Round y Nunito -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Nunito:wght@500&display=swap" rel="stylesheet">
 
+    <!-- INICIO LINKS BOOSTRAP-->
+    <script src="java/sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     <!-- Option 1: Bootstrap Bundle with Popper -->
+  
   </head>
   <body>
-      <!-- INICIO LINKS BOOSTRAP-->
-      <script src="java/sketch.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     <!-- Option 1: Bootstrap Bundle with Popper -->
-
     <!-- INICIO NAV BAR-->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content align-items">
             <div class="logo d-flex "> 
-              <img src="img/logo/logonet.png">
+                <img src="img/logo/logonet.png">
             </div>
           <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
@@ -68,7 +68,7 @@
       <div class="rect large"></div>
       <!-- Texto -->
       <div class="h1 intrinsictitle fs-3">ARTNETLAB</div>
-      <div class="h2 intrinsicsubtitle fs-6">LEARN SOMETHING OF DIGITAL ART</div>
+      <div class="h2 intrinsicsubtitle fs-6 text-white">LEARN SOMETHING OF DIGITAL ART</div>
     </div>
   <!-- FIN TEXTO ESTILO BAUHAUS-->
 
@@ -77,7 +77,7 @@
       <div class="row">
           <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center mx-auto">
             <div class="container-introduccion"> 
-              <h1 class="titulo1 mt-5">History of Digital Art</h1>
+              <h2 class="titulo1 mt-5">History of Digital Art</h2>
               <br>
               <div class="texto-inicio">
                 <p><strong class="I-texto-inicio">I</strong>n this page we explain the evolution of digital art <br>
@@ -96,7 +96,7 @@
               <div class="news-item">
                 <p><a href="https://www.youtube.com/watch?v=Vkfpi2H8tOE > ">"O Superman"</a> of Laurie Anderson</p>
                 <p><a href="https://www.youtube.com/watch?v=jRAWryc6X5E" >"Melting Memories"</a> of Refik Anadol</p>
-                <p><a href="https://wwwwwwwww.jodi.org/betalab/index.html"> "jordi.org</a> by Joan Heemskerk and Dirk Paesmans</p>
+                <p><a href="https://wwwwwwwww.jodi.org/betalab/index.html"> "jordi.org</a>by Joan Heemskerk and Dirk Paesmans</p>
               </div>
               <div class="news-item">
                 <h2>More info of...</h3>
@@ -169,7 +169,6 @@
               </div>
             </v>
           </section>
-          </section>
             <!--Epoca 2010 2024-->
           <section class="historia-seccion" id="bordes-lados">
             <div class="row">
@@ -211,8 +210,8 @@
                   <div class="container">
                     <div class="row">
                       <div class="col d-flex display-content-center">
-                        <div class="p5-container" > <!-- Contenedor específico para p5.js -->
-                          <div id="p5" alt="Work in P5JS by Júlia Calvo, 2024"></div> <!--ALT NUEVO!! (X SI FALLA LA VISUALIZACION)-->
+                        <div class="p5-container">
+                          <div id="p5"></div> <!-- Contenedor específico para p5.js -->
                         </div>
                       </div>
                     </div>
@@ -224,257 +223,257 @@
       </div>
     </article>
 
-    <!-- INICIO Sección GALLERY -->
-    <div class="gallery">
-      <div class="container"> 
-        <div class="titulo-galeria text-center mb-4">
-          <h2 class="mt-5">Gallery</h2>
-        </div>
-        <div class="gallery"> 
-          <!-- PRIMER GRUPO DE IMGNS -->
-          <h3 class="segundo-titulo-gallery">1. The Beginnings of Digital Art (1950-1970)</h3>
-          <div class="grupo-imgn">
-            <div class="row mb-4">
-              <div class="col-6 col-md-3 mb-3">
-                <div class="image_wrapper">
-                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/poly.jpg" alt="Polygon Drawings of Frieder Nake and Georg Nees, 1965"/>
-                  <span class="image_caption">"Polygon Drawings" of Frieder Nake and Georg Nees -1965</span>
-                  </div>
-              </div>
-              <div class="col-6 col-md-3 mb-3">
-                <div class="image_wrapper">
-                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness.jpeg" alt="Unknown title by Georg Nees"/>
-                  <span class="image_caption">"Unknown title" by Georg Nees</span>
-                </div>
-              </div>
-              <div class="col-6 col-md-3 mb-3">
-                <div class="image_wrapper">
-                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness2.JPG" alt="Unknown title by Georg Nees"/>
-                  <span class="image_caption">"Unknown title" by Georg Nees</span>
-                </div>
-              </div>
-              <div class="col-6 col-md-3 mb-3">
-                <div class="image_wrapper">
-                  <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/fridernake.jpg" alt="Walk Through Raster by Frider Nake, 1967"/>
-                  <span class="image_caption">"Walk Through Raster" by Frider Nake  - 1967</span>
-                </div>
-              </div>
-            </div>  
-          </div>
-          <!-- SEGUNDO GRUPO DE IMGNS -->
-          <h3 class="segundo-titulo-gallery">2.  Development of Digital Art (1970-1990)</h3>
-          <div class=" grupo-imgn, row mb-4">
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!-->   
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/aaron1.jpg" alt="AARON of Harold Cohen"/>
-                <span class="image_caption">"AARON" by Harold Cohen  - 1970</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!--> 
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/harold.JPG" alt="Machine Painting Series TCM#23, 1997 of Harold Cohen"/>
-                <span class="image_caption">"Machine Painting Series" by Harold Cohen - 1997</span>
-              </div>
-            </div>    
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!--> 
-                <img class="image_gallery img-fluid"id="desenfoque" src="img/img-gallery/harold1.JPG" alt="Untitled (i23-3765), 1987 of Harold Cohen"/>
-                <span class="image_caption"> "Untitled" by Harold Cohen - 1987</span>
-              </div>    
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/davidem.JPG" alt="Escher, 1979, of David Em"/>
-                <span class="image_caption">"Escher" by David Em - 1979</span>
-              </div>
-            </div>
-          </div>
-          <!-- TERCER GRUPO DE IMGNS -->
-          <h3>3. The Age of Digital Art on the Internet (1990-2010)</h3>
-          <div class="grupo-imgn row mb-4">
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi1.JPG" alt="Jordi.org, experimental art website"/>
-                <span class="image_caption">Jordi.org, experimental art website</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi2.JPG" alt="Jordi.org, experimental art website"/>
-                <span class="image_caption">Jordi.org, experimental art website</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/lozano.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
-                <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/hemmer2.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
-                <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
-              </div>
-            </div>
-          </div>
-          <!-- CUARTO GRUPO DE IMGNS -->
-          <h3>4. Digital Art in the Era of NFTs and Virtual Reality (2010-2024)</h3>
-          <div class="grupo-imgn row mb-4">
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/anadol.JPG" alt="Liminal Room, 2015, of Refik Anadol"/>
-                <span class="image_caption">Liminal Room, 2015, of Refik Anadol</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/mario.jpg" alt="Medialab Prado, 2021, of Mario Klingemann"/>
-                <span class="image_caption">Medialab Prado, 2021, of Mario Klingemann</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples.JPG" alt="NFT Art of Beeples, 2000"/>
-                <span class="image_caption">NFT Art of Beeples, 2000</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-              <div class="image_wrapper">
-                <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples2.JPG" alt="NFT Art of Beeples, 2019"/>
-                <span class="image_caption">NFT Art of Beeples, 2019</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- NETART INTERACTIVO -->
-        <h3>Now you are the artist!</h3>
-        <div id="art-container" class="mb-3"></div>
-        <div class="centered">
-          <button id="generate-btn" class="custom-button">Generate new work</button>
-        </div>
-      </div>    
+<!-- INICIO Sección GALLERY -->
+<div class="gallery">
+  <div class="container"> 
+    <div class="titulo-galeria text-center mb-4">
+      <h2 class="mt-5">Gallery</h2>
     </div>
-  <!-- FIN Sección GALLERY -->
+    <div class="gallery"> 
+      <!-- PRIMER GRUPO DE IMGNS -->
+      <h3 class="segundo-titulo-gallery">1. The Beginnings of Digital Art (1950-1970)</h3>
+      <div class="grupo-imgn">
+        <div class="row mb-4">
+          <div class="col-6 col-md-3 mb-3">
+            <div class="image_wrapper">
+              <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/poly.jpg" alt="Polygon Drawings of Frieder Nake and Georg Nees, 1965"/>
+              <span class="image_caption">"Polygon Drawings" of Frieder Nake and Georg Nees -1965</span>
+              </div>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <div class="image_wrapper">
+              <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness.jpeg" alt="Unknown title by Georg Nees"/>
+              <span class="image_caption">"Unknown title" by Georg Nees</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <div class="image_wrapper">
+              <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/georgness2.JPG" alt="Unknown title by Georg Nees"/>
+              <span class="image_caption">"Unknown title" by Georg Nees</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <div class="image_wrapper">
+              <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/fridernake.jpg" alt="Walk Through Raster by Frider Nake, 1967"/>
+              <span class="image_caption">"Walk Through Raster" by Frider Nake  - 1967</span>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!-- SEGUNDO GRUPO DE IMGNS -->
+      <h3 class="segundo-titulo-gallery">2.  Development of Digital Art (1970-1990)</h3>
+      <div class=" grupo-imgn, row mb-4">
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!-->   
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/aaron1.jpg" alt="AARON of Harold Cohen"/>
+            <span class="image_caption">"AARON" by Harold Cohen  - 1970</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!--> 
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/harold.JPG" alt="Machine Painting Series TCM#23, 1997 of Harold Cohen"/>
+            <span class="image_caption">"Machine Painting Series" by Harold Cohen - 1997</span>
+          </div>
+        </div>    
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">  <!--NUEVO!! ARREGLOS!!--> 
+            <img class="image_gallery img-fluid"id="desenfoque" src="img/img-gallery/harold1.JPG" alt="Untitled (i23-3765), 1987 of Harold Cohen"/>
+            <span class="image_caption"> "Untitled" by Harold Cohen - 1987</span>
+          </div>    
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/davidem.JPG" alt="Escher, 1979, of David Em"/>
+            <span class="image_caption">"Escher" by David Em - 1979</span>
+          </div>
+        </div>
+      </div>
+      <!-- TERCER GRUPO DE IMGNS -->
+      <h3>3. The Age of Digital Art on the Internet (1990-2010)</h3>
+      <div class="grupo-imgn row mb-4">
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi1.JPG" alt="Jordi.org, experimental art website"/>
+            <span class="image_caption">Jordi.org, experimental art website</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/jordi2.JPG" alt="Jordi.org, experimental art website"/>
+            <span class="image_caption">Jordi.org, experimental art website</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/lozano.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
+            <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/hemmer2.jpg" alt="33 Questions per Minute, 2003, of Lozano-Hemmer"/>
+            <span class="image_caption">33 Questions per Minute, 2003, of Lozano-Hemmer</span>
+          </div>
+        </div>
+      </div>
+      <!-- CUARTO GRUPO DE IMGNS -->
+      <h3>4. Digital Art in the Era of NFTs and Virtual Reality (2010-2024)</h3>
+      <div class="grupo-imgn row mb-4">
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/anadol.JPG" alt="Liminal Room, 2015, of Refik Anadol"/>
+            <span class="image_caption">Liminal Room, 2015, of Refik Anadol</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/mario.jpg" alt="Medialab Prado, 2021, of Mario Klingemann"/>
+            <span class="image_caption">Medialab Prado, 2021, of Mario Klingemann</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples.JPG" alt="NFT Art of Beeples, 2000"/>
+            <span class="image_caption">NFT Art of Beeples, 2000</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="image_wrapper">
+            <img class="image_gallery img-fluid" id="desenfoque" src="img/img-gallery/beeples2.JPG" alt="NFT Art of Beeples, 2019"/>
+            <span class="image_caption">NFT Art of Beeples, 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NETART INTERACTIVO -->
+    <h3>Now you are the artist!</h3>
+    <div id="art-container" class="mb-3"></div>
+    <div class="centered">
+      <button id="generate-btn" class="custom-button">Generate new work</button>
+    </div>
+  </div>    
+</div>
+<!-- FIN Sección GALLERY -->
 
   <!-- INICIO Sección About Us -->
-    <div class="container-final">
-      <div class="container mt-5">
-        <section class="sobrenosotras" id="bordes-lados">
-          <h2 class="text-center" id="about-us">About us</h2>
-          <br>
-          <section id="historiauno" class="historia-seccion row">
-            <div class="col-md-6 col-12 text-center mt-4 mb-4">
-              <h3>Who we are?</h3>
-              <p >
-              We are a non-profit association and our main goal is to show how artists have adapted their creation methods to technological capabilities. In ARTNETLAB you can see how digital art began and how it has evolved until today. We hope our content will inspire you to experiment new ways of creating.
+  <div class="container-final">
+    <div class="container mt-5">
+      <section class="sobrenosotras" id="bordes-lados">
+        <h2 class="text-center" id="about-us">About us</h2>
+        <br>
+        <section id="historiauno" class="historia-seccion row">
+          <div class="col-md-6 col-12 text-center mt-4 mb-4">
+            <h3>Who we are?</h3>
+            <p >
+            We are a non-profit association and our main goal is to show how artists have adapted their creation methods to technological capabilities. In ARTNETLAB you can see how digital art began and how it has evolved until today. We hope our content will inspire you to experiment new ways of creating.
+            </p>
+          </div>
+          <div class="col-md-6 align-items-center">
+            <div class=" logo-about text-center ">
+            <img src="img/logo/logogran.png" alt="Logo of ARTNETLAB" /> <!-- redondeo la imgn con bs con border pill y redusco su tamaño a la mitad-->
+            </div>
+          </div>
+        </section>
+        <br>
+        <section class="historia-seccion mt-2 row">
+          <div class="row">
+            <div class="col-md-6 col-12 mt-5">
+              <div class="img-valen">
+                <img class="w-50" src="img/valentino2.jpg" alt="Descripción de la imagen" />
+              </div>
+              </div>
+            <div class="col-md-6 col-12 text-center">
+              <h3  class="mt-5">Valentino Coello</h3>
+              <p>
+                I am a digital designer with more than 15 years of professional experience and a solid academic background in graphic design, visual communication and interaction design. 
+              </p>
+              <p>
+                My background includes a bachelor's degree in Graphic Design and a master's degree in User Experience Design, which has allowed me to develop an integral vision that combines aesthetics, functionality and technology in every project. I have had the opportunity to collaborate with multidisciplinary teams in renowned advertising agencies, technology startups and user experience design companies, where my work has focused on creating intuitive interfaces, memorable experiences and visual solutions that solve real user problems.
               </p>
             </div>
-            <div class="col-md-6 align-items-center">
-              <div class=" logo-about text-center ">
-              <img src="img/logo/logogran.png" alt="Logo of ARTNETLAB" /> <!-- redondeo la imgn con bs con border pill y redusco su tamaño a la mitad-->
-              </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-6 col-12 text-center">
+              <h3 class="mt-5">Juliano Calvo</h3>
+              <p>
+                I'm a digital designer specializing in creating visual and user experiences that combine creativity and functionality. With over a decade of experience and a strong background in graphic design and user experience, I have worked with clients from different industries to develop brands, interfaces, and digital products that stand out for their impact and usability.
+              </p>
+              <p>
+                I am passionate about transforming complex ideas into clear and engaging visual solutions, ensuring that each project not only meets business objectives, but also delivers value to the end user.
+              </p>
             </div>
-          </section>
-          <br>
-          <section class="historia-seccion mt-2 row">
-            <div class="row">
-              <div class="col-md-6 col-12 mt-5">
-                <div class="img-valen">
-                  <img class="w-50" src="img/valentino2.jpg" alt="Descripción de la imagen" />
-                </div>
-                </div>
-              <div class="col-md-6 col-12 text-center">
-                <h3  class="mt-5">Valentino Coello</h3>
-                <p>
-                  I am a digital designer with more than 15 years of professional experience and a solid academic background in graphic design, visual communication and interaction design. 
-                </p>
-                <p>
-                  My background includes a bachelor's degree in Graphic Design and a master's degree in User Experience Design, which has allowed me to develop an integral vision that combines aesthetics, functionality and technology in every project. I have had the opportunity to collaborate with multidisciplinary teams in renowned advertising agencies, technology startups and user experience design companies, where my work has focused on creating intuitive interfaces, memorable experiences and visual solutions that solve real user problems.
-                </p>
-              </div>
-            </div>
-            <div class="row mt-5">
-              <div class="col-md-6 col-12 text-center">
-                <h3 class="mt-5">Juliano Calvo</h3>
-                <p>
-                  I'm a digital designer specializing in creating visual and user experiences that combine creativity and functionality. With over a decade of experience and a strong background in graphic design and user experience, I have worked with clients from different industries to develop brands, interfaces, and digital products that stand out for their impact and usability.
-                </p>
-                <p>
-                  I am passionate about transforming complex ideas into clear and engaging visual solutions, ensuring that each project not only meets business objectives, but also delivers value to the end user.
-                </p>
-              </div>
-              <div class="col-md-6 col-12 mt-5">
-                <div class="img-julia">
-                  <img class=" w-50" src="img/juliocalvo.jpeg" alt="Descripción de la imagen" />
-                </div>
-              </div>
-            </div>
-          </section>
-        </section>
-      </div>
-      <!-- Seccion sugerencias -->
-      <section class="addartist">
-        <div class="container-artist">
-            <h3>Which artist would you like to see on our site?</h3>
-          <div class="col d-flex">
-            <input type="text" placeholder="Name" class="form-control me-2" />
-            <button type="submit" class="btn btn-primary bg-warning text-dark border-dark">Send</button>
-          </div> 
-        </div>  
-      </section>
-      <!-- Map Begin -->
-      <div class="map-container"> 
-        <h2 class="map-title">FIND US!</h2>
-        <h3 style="text-align: center; margin-bottom: 1%;">Street General Brito, 25007, Lleida</h3>
-        <div class="map-wrapper">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14188.916086112957!2d0.6279232129659638!3d41.61570834562847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1712786453448!5m2!1ses!2ses" 
-          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
-      <!-- Map End -->
-      <!-- SECCION CONTACTO -->
-      <section class="contact "> 
-        <div class="container"> <!-- Añadido un contenedor para el grid -->
-          <div class="row"> <!-- Fila para el grid -->
-            <div class="col-md-6 justify-content-start"> <!-- Columna para la dirección -->
-              <div class="contact-address">
-                <div class="section-title">
-                  <h2 class="contact-info" id="contact">Contact info</h2>
-                </div>
-                <h3>Address</h3>
-                <p>Lleida, Cataluña, 25007</p>
-                <h3>Phone</h3>
-                <span>+34 684 389 235</span>
-                <h3>Email</h3>
-                <p>ArtNet.Lab@gmail.com</p>
-              </div>
-            </div>
-            <div class="col-md-6 justify-content-center"> <!-- Columna para el formulario -->
-              <div class="contact__form text-center">
-                <div class="gettt-titulo">  
-                  <h2 class="ml-5">Get in touch</h2>  
-                </div>
-                <p>If you have any questions, do not hesitate to contact us and we will do our best to resolve them for you!</p>  <!--NUEVO!! LO HE PUESTO EN P EN LUGAR DE H3 PA QUE QUEDE MAS BONITO-->
-                <form action="#">
-                  <div class="celdas">
-                    <div class="col">
-                      <input type="text" placeholder="Email" >
-                    </div>
-                  </div>      
-                  <div class="celdas">
-                    <div class="col">
-                      <textarea placeholder="Comment"></textarea>
-                    </div>
-                  </div>
-                  <button type="submit" class="celdas">SEND MESSAGE</button>
-                </form>
+            <div class="col-md-6 col-12 mt-5">
+              <div class="img-julia">
+                <img class=" w-50" src="img/juliocalvo.jpeg" alt="Descripción de la imagen" />
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
     </div>
-    <!-- Contact End -->
+    <!-- Seccion sugerencias -->
+    <section class="addartist">
+      <div class="container-artist">
+          <h3>Which artist would you like to see on our site?</h3>
+        <div class="col d-flex">
+          <input type="text" placeholder="Name" class="form-control me-2" />
+          <button type="submit" class="btn btn-primary bg-warning text-dark border-dark">Send</button>
+        </div> 
+      </div>  
+    </section>
+    <!-- Map Begin -->
+    <div class="map-container"> 
+      <h2 class="map-title">FIND US!</h2>
+      <h3 style="text-align: center; margin-bottom: 1%;">Street General Brito, 25007, Lleida</h3>
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14188.916086112957!2d0.6279232129659638!3d41.61570834562847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1712786453448!5m2!1ses!2ses" 
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <!-- Map End -->
+    <!-- SECCION CONTACTO -->
+    <section class="contact "> 
+      <div class="container"> <!-- Añadido un contenedor para el grid -->
+        <div class="row"> <!-- Fila para el grid -->
+          <div class="col-md-6 justify-content-start"> <!-- Columna para la dirección -->
+            <div class="contact-address">
+              <div class="section-title">
+                <h2 class="contact-info" id="contact">Contact info</h2>
+              </div>
+              <h3>Address</h3>
+              <p>Lleida, Cataluña, 25007</p>
+              <h3>Phone</h3>
+              <span>+34 684 389 235</span>
+              <h3>Email</h3>
+              <p>ArtNet.Lab@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 justify-content-center"> <!-- Columna para el formulario -->
+            <div class="contact__form text-center">
+              <div class="gettt-titulo">  
+                <h2 class="ml-5">Get in touch</h2>  
+              </div>
+              <p>If you have any questions, do not hesitate to contact us and we will do our best to resolve them for you!</p>  <!--NUEVO!! LO HE PUESTO EN P EN LUGAR DE H3 PA QUE QUEDE MAS BONITO-->
+              <form action="#">
+                <div class="celdas">
+                  <div class="col">
+                    <input type="text" placeholder="Email" >
+                  </div>
+                </div>      
+                <div class="celdas">
+                  <div class="col">
+                    <textarea placeholder="Comment"></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="celdas">SEND MESSAGE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Contact End -->
     <!--footer-->
     <footer class="footer">
       <p>This site is for learning and entertainment.</p>
@@ -489,3 +488,4 @@
     <script src="java/scripts.js"></script> <!--java del network-->
   </body>
 </html>
+
