@@ -483,19 +483,7 @@ button:hover {
   }
 }
 
-@media(max-width:1024px){
-  .intrinsic {
-    top: 20%; /* Ajusta según sea necesario para centrar verticalmente */
-  }
-}
-
-@media(max-width:600px){
-  .intrinsic {
-    top: 20%; /* Ajusta según sea necesario para centrar verticalmente */
-  }
-}
-
-@media (max-width: 376px) {
+@media (max-width: 990px) {
   .intrinsic {
     display: none; /* Esto hará que el elemento desaparezca */
   }
